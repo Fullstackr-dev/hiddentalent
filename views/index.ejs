@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hidden Talent - Find your next talent</title>
+    <%- include ('head.ejs') %>
+</head>
+<body>
+    <%- include ('nav.ejs') %>
+<main>
+        <div class="px-4 py-5 my-5 text-center">
+          <h1 class="display-5 fw-bold">Find your next talent</h1>
+          <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">{number of candidates on website} Are waiting to work for you.</p>
+            <select class="form-select text-center form-select-sm" aria-label="Default select example">
+                <option selected>What role you want to fill?</option>
+                <option value="1">Frontend web developer</option>
+                <option value="2">Backendend web developer</option>
+                <option value="3">Fullstack web developer</option>
+              </select>
+            <!-- <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
+            </div> -->
+          </div>
+        </div>
+</main>
+   <%- include ('footer.ejs') %>
+</body>
+</html>

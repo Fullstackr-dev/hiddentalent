@@ -1,0 +1,29 @@
+{
+  "name": "hiddentalent",
+  "version": "0.1.0",
+  "description": "A website platform allowing recruiters find talent from a database of developers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fullstackr-dev/hiddentalent.git"
+  },
+  "keywords": [
+    "hiddentalent"
+  ],
+  "author": "Fullstackr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fullstackr-dev/hiddentalent/issues"
+  },
+  "homepage": "https://github.com/Fullstackr-dev/hiddentalent#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "mongodb": "^4.3.1",
+    "mongoose": "^6.1.7",
+    "nodemon": "^2.0.15"
+  }
+}

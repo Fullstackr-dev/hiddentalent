@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hidden Talent - Candidates</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <%- include ('head.ejs') %>
+</head>
+<body>
+    <%- include ('nav.ejs') %>
+<main>
+        <div class="px-4 py-5 mb-5 text-center hero">
+            <h1>Candidates</h1>
+        </div>
+        <div class="container">
+            <div class="row align-items-start">
+                <div class="col-3">
+                    <p class="filterP">Type of a developer</p>
+                        <div>
+                            <input type="checkbox" id="typeFe" name="typeFe" checked>
+                            <label for="scales">Frontend web developer</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="typeBe" name="typeBe">
+                            <label for="typeBe">Backend web developer</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="typeFs" name="typeFs">
+                            <label for="typeFs">Fullstack web developer</label>
+                        </div>
+<hr>
+                    <p class="filterP">Experience</p>
+                        <div>
+                            <input type="checkbox" id="typeFe" name="typeFe" checked>
+                            <label for="scales">0-1 years</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="typeBe" name="typeBe">
+                            <label for="typeBe">1-2 years</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="typeFs" name="typeFs">
+                            <label for="typeFs">2-5 years</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="typeFs" name="typeFs">
+                            <label for="typeFs">5-10 years</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="typeFs" name="typeFs">
+                            <label for="typeFs">10+ years</label>
+                        </div>
+<hr>
+                    <p class="filterP">Location</p>
+                        <div>
+                            <input type="checkbox" id="lRemote" name="location" value="remote">
+                            <label for="lRemote">Remote</label>
+                        </br>
+                        <input type="checkbox" id="lCountry" name="location" value="">    
+                        <select name="lCountry" id="lCountry">
+                                <option value="">Country</option>
+                                <option value="country1">Country 1</option>
+                                <option value="country2">Country 2</option>
+                                <option value="country3">Country 3</option>
+                            </select>
+                        </div>
+
+                </div>
+                <!-- Cards area -->
+                <div class="col">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="../img/person.jpg" class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="../img/person.jpg" class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="../img/person.jpg" class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+</main>
+   <%- include ('footer.ejs') %>
+</body>
+</html>
